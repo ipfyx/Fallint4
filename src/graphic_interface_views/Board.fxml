@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import java.net.*?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphic_interface_controller.Board_controller">
+    <stylesheets>
+    <URL value="@Board.css" />
+	</stylesheets>
+   <children>
+      <AnchorPane fx:id="HexagonePane1_0" layoutX="637.0" layoutY="216.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone1_0" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSp1_0" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="centerHexagonePane" layoutX="487.0" layoutY="216.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="centerHexagone" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="centerHexagonePaneSp" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane0_1" layoutX="562.0" layoutY="82.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone0_1" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSp0_1" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane2_0" layoutX="787.0" layoutY="216.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone2_0" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSp2_0" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane1_1" layoutX="712.0" layoutY="82.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone1_1" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSp1_1" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane2_m1" layoutX="712.0" layoutY="350.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone2_m1" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSp2_m1" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane3_m2" layoutX="787.0" layoutY="484.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone3_m2" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSp3_m2" layoutY="1.0" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane1_m1" layoutX="562.0" layoutY="350.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone1_m1" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSp1_m1" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane2_m2" layoutX="637.0" layoutY="484.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone2_m2" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSp2_m2" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane1_m2" layoutX="487.0" layoutY="484.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone1_m2" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSp1_m2" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane0_m2" layoutX="337.0" layoutY="484.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone0_m2" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSp0_m2" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePanem1_m2" layoutX="187.0" layoutY="484.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagonem1_m2" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSpm1_m2" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePanem3_m2" layoutX="-113.0" layoutY="484.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagonem3_m2" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSpm3_m2" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePanem2_m2" layoutX="37.0" layoutY="484.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagonem2_m2" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSpm2_m2" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePanem4_1" layoutX="-38.0" layoutY="82.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagonem4_1" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSpm4_1" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePanem4_0" layoutX="-113.0" layoutY="216.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagonem4_0" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSpm4_0" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePanem3_m1" layoutX="-38.0" layoutY="350.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagonem3_m1" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSpm3_m1" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane0_m1" layoutX="412.0" layoutY="350.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone0_m1" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSp0_m1" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePanem1_m1" layoutX="262.0" layoutY="350.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagonem1_m1" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSpm1_m1" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePanem2_m1" layoutX="112.0" layoutY="350.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagonem2_m1" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSpm2_m1" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePanem3_0" layoutX="37.0" layoutY="216.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagonem3_0" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSpm3_0" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePanem3_1" layoutX="112.0" layoutY="82.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagonem3_1" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSpm3_1" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePanem2_0" layoutX="187.0" layoutY="216.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagonem2_0" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSpm2_0" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePanem2_1" layoutX="262.0" layoutY="82.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagonem2_1" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSpm2_1" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePanem1_0" layoutX="337.0" layoutY="216.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagonem1_0" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSpm1_0" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePanem1_1" layoutX="412.0" layoutY="82.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagonem1_1" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSpm1_1" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane3_m1" layoutX="862.0" layoutY="350.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone3_m1" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSp3_m1" layoutY="1.0" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane4_m2" layoutX="937.0" layoutY="484.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone4_m2" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSp4_m2" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePanem4_2" layoutX="37.0" layoutY="-52.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagonem4_2" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSpm4_2" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePanem5_2" layoutX="-113.0" layoutY="-52.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagonem5_2" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSpm5_2" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePanem3_2" layoutX="187.0" layoutY="-52.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagonem3_2" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSpm3_2" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePanem2_2" layoutX="337.0" layoutY="-52.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagonem2_2" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSpm2_2" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePanem1_2" layoutX="487.0" layoutY="-52.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagonem1_2" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSpm1_2" layoutY="2.0" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane0_2" layoutX="637.0" layoutY="-52.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone0_2" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSp0_2" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane1_2" layoutX="787.0" layoutY="-52.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone1_2" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSp1_2" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane2_1" layoutX="862.0" layoutY="82.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone2_1" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSp2_1" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane2_2" layoutX="937.0" layoutY="-52.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone2_2" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSp2_2" layoutY="2.0" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane3_1" layoutX="1012.0" layoutY="82.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone3_1" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSp3_1" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane3_0" layoutX="937.0" layoutY="216.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone3_0" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSp3_0" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane3_2" layoutX="1087.0" layoutY="-52.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone3_2" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSp3_2" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane4_0" layoutX="1087.0" layoutY="216.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone4_0" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSp4_0" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane4_m1" layoutX="1012.0" layoutY="350.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone4_m1" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSp4_m1" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane5_m2" layoutX="1087.0" layoutY="484.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone5_m2" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+            <AnchorPane fx:id="HexagonePaneSp5_m2" prefHeight="180.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePanem2_m3" layoutX="-38.0" layoutY="618.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagonem2_m3" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePanem1_m3" layoutX="112.0" layoutY="618.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagonem1_m3" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane0_m3" layoutX="262.0" layoutY="618.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone0_m3" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane1_m3" layoutX="412.0" layoutY="618.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone1_m3" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane2_m3" layoutX="562.0" layoutY="618.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone2_m3" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane3_m3" layoutX="712.0" layoutY="618.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone3_m3" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane4_m3" layoutX="862.0" layoutY="618.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone4_m3" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="HexagonePane5_m3" layoutX="1012.0" layoutY="618.0" prefHeight="180.0" prefWidth="150.0">
+         <children>
+            <Polygon fx:id="Hexagone5_m3" fill="DODGERBLUE" layoutX="75.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE">
+               <points>
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="90.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="45.0" />
+                  <Double fx:value="75.0" />
+                  <Double fx:value="-45.0" />
+                  <Double fx:value="0.0" />
+                  <Double fx:value="-90.0" />
+                  <Double fx:value="-75.0" />
+                  <Double fx:value="-45.0" />
+               </points>
+            </Polygon>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="menuBas" layoutY="631.0" prefHeight="269.0" prefWidth="1600.0">
+         <children>
+            <AnchorPane fx:id="buttonPanel1" layoutX="310.0" layoutY="12.0" prefHeight="233.0" prefWidth="403.0">
+               <children>
+                  <Button fx:id="moveButton" alignment="CENTER" layoutX="28.0" layoutY="32.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="352.0" text="Se déplacer" textAlignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
+                  <Button fx:id="destroyButton" layoutX="28.0" layoutY="92.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="160.0" text="Détruire" textAlignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
+                  <Button fx:id="buildButton" layoutX="220.0" layoutY="92.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="160.0" text="Construire">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
+                  <Button fx:id="dumpObjectButton" layoutX="220.0" layoutY="134.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="160.0" text="Jeter l'objet">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
+                  <Button fx:id="collectObjectButton" layoutX="28.0" layoutY="134.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="160.0" text="Ramasser l'objet">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
+                  <Button fx:id="dumpRessourceButton" layoutX="220.0" layoutY="176.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="160.0" text="Jeter la ressource">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
+                  <Button fx:id="collectRessourceButton" layoutX="28.0" layoutY="176.0" mnemonicParsing="false" text="Collecter la ressource">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
+               </children>
+            </AnchorPane>
+            <Button fx:id="endturnButton" layoutX="40.0" layoutY="44.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="235.0" text="Fin du tour">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+            <Text fx:id="playerPositionField" layoutX="40.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Position du joueur" textAlignment="CENTER" wrappingWidth="235.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="turnCountField2" layoutX="40.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tour display 2" textAlignment="CENTER" wrappingWidth="235.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Button fx:id="woodInventButton" layoutX="1470.0" layoutY="44.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="85.0" text="0" />
+            <Button fx:id="potionInventButton" layoutX="1470.0" layoutY="138.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="85.0" text="0" />
+            <Button fx:id="waterInventButton" layoutX="1340.0" layoutY="44.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="85.0" text="0" />
+            <Button fx:id="foodInventButton" layoutX="1210.0" layoutY="44.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="85.0" text="0" />
+            <Button fx:id="shieldInventButton" layoutX="1340.0" layoutY="138.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="85.0" text="0" />
+            <Button fx:id="swordInventButton" layoutX="1210.0" layoutY="138.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="85.0" text="0" />
+            <Button fx:id="collectWeaponButton" alignment="CENTER_RIGHT" layoutX="750.0" layoutY="44.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="170.0" text="Armes sur la case" textAlignment="RIGHT">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button fx:id="collectShieldButton" alignment="CENTER_RIGHT" layoutX="750.0" layoutY="106.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="170.0" text="Bouclier sur la case" textAlignment="RIGHT">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button fx:id="collectPotionButton" alignment="CENTER_RIGHT" layoutX="750.0" layoutY="168.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="170.0" text="Potion sur la case" textAlignment="RIGHT">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Text layoutX="1003.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inventaire">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <Text fx:id="currentInventoryLoad" layoutX="1003.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="?" textAlignment="CENTER" wrappingWidth="44.13671875">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <Text fx:id="maxInventoryLoad" layoutX="1072.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="?" textAlignment="CENTER" wrappingWidth="44.13671875">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="1055.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="/" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="topMenuPane" layoutX="1133.0" prefHeight="48.0" prefWidth="467.0">
+         <children>
+            <Text fx:id="turnCountField1" layoutX="33.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tour" textAlignment="CENTER" wrappingWidth="129.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="ptActionField" layoutX="169.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pt action" textAlignment="CENTER" wrappingWidth="129.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Button fx:id="quitButton" layoutX="352.0" layoutY="10.0" mnemonicParsing="false" text="Quitter">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="menuDroite" layoutX="1133.0" layoutY="47.0" prefHeight="584.0" prefWidth="467.0">
+         <children>
+            <AnchorPane fx:id="caseInfoPane" layoutX="63.0" layoutY="12.0" prefHeight="38.0" prefWidth="356.0">
+               <children>
+                  <Text fx:id="caseInfo" fill="WHITE" layoutX="9.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Infos de la case ici" textAlignment="CENTER" wrappingWidth="344.13671875">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="groupNameTextPane" layoutX="63.0" layoutY="191.0" prefHeight="34.0" prefWidth="362.0">
+               <children>
+                  <Text fx:id="groupNameText" fill="WHITE" layoutX="9.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom du groupe ici" textAlignment="CENTER" wrappingWidth="344.13671875">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <ScrollPane fx:id="scrollCommandPane" layoutX="63.0" layoutY="56.0" prefHeight="128.0" prefWidth="362.0">
+              <content>
+                <AnchorPane fx:id="commandPane" minHeight="0.0" minWidth="0.0" prefHeight="747.0" prefWidth="341.0">
+                     <children>
+                        <Text fx:id="commandText" layoutX="5.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Invité de commande" wrappingWidth="336.13671875">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+            <AnchorPane fx:id="persosInfoPane" layoutX="65.0" layoutY="238.0" prefHeight="292.0" prefWidth="362.0">
+               <children>
+                  <Text fx:id="perso1" layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Perso 1">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="perso2" layoutX="14.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Perso 2">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font></Text>
+                  <Text fx:id="perso3" layoutX="14.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Perso 3">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font></Text>
+                  <Text fx:id="Perso1_vie" layoutX="31.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vie :" wrappingWidth="59.13671875" />
+                  <Text fx:id="Perso2_vie" layoutX="31.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vie :" wrappingWidth="51.83349609375" />
+                  <Text fx:id="Perso3_vie" layoutX="38.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vie :" wrappingWidth="30.13671875" />
+                  <Text fx:id="hpP1" layoutX="110.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="?" textAlignment="CENTER" wrappingWidth="44.13671875" />
+                  <Text fx:id="Perso1_barre" layoutX="160.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="/" textAlignment="CENTER" wrappingWidth="18.13671875" />
+                  <Text fx:id="hpMaxP1" layoutX="187.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="?" textAlignment="CENTER" wrappingWidth="44.13671875" />
+                  <Text fx:id="Perso1_force" layoutX="31.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Force :" wrappingWidth="59.13671875" />
+                  <Text fx:id="ForceP1" layoutX="110.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="?" textAlignment="CENTER" wrappingWidth="44.13671875" />
+                  <Text fx:id="Perso1_plus" layoutX="160.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+" textAlignment="CENTER" wrappingWidth="18.13671875" />
+                  <Text fx:id="dmgArmeP1" layoutX="187.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="?" textAlignment="CENTER" wrappingWidth="44.13671875" />
+                  <Text fx:id="Perso2_force" layoutX="31.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Force :" wrappingWidth="48.80859375" />
+                  <Text fx:id="Perso3_force" layoutX="29.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Force :" textAlignment="CENTER" wrappingWidth="48.80859375" />
+                  <Text fx:id="hpP2" layoutX="110.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="?" textAlignment="CENTER" wrappingWidth="44.13671875" />
+                  <Text fx:id="Perso2_barre" layoutX="160.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="/" textAlignment="CENTER" wrappingWidth="18.13671875" />
+                  <Text fx:id="hpMaxP2" layoutX="187.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="?" textAlignment="CENTER" wrappingWidth="44.13671875" />
+                  <Text fx:id="ForceP2" layoutX="110.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="?" textAlignment="CENTER" wrappingWidth="44.13671875" />
+                  <Text fx:id="Perso2_plus" layoutX="160.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+" textAlignment="CENTER" wrappingWidth="18.13671875" />
+                  <Text fx:id="dmgArmeP2" layoutX="187.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="?" textAlignment="CENTER" wrappingWidth="44.13671875" />
+                  <Text fx:id="hpP3" layoutX="110.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="?" textAlignment="CENTER" wrappingWidth="44.13671875" />
+                  <Text fx:id="Perso3_barre" layoutX="160.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="/" textAlignment="CENTER" wrappingWidth="18.13671875" />
+                  <Text fx:id="hpMaxP3" layoutX="187.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="?" textAlignment="CENTER" wrappingWidth="44.13671875" />
+                  <Text fx:id="ForceP3" layoutX="110.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="?" textAlignment="CENTER" wrappingWidth="44.13671875" />
+                  <Text fx:id="Perso3_plus" layoutX="160.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+" textAlignment="CENTER" wrappingWidth="18.13671875" />
+                  <Text fx:id="dmgArmeP3" layoutX="187.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="?" textAlignment="CENTER" wrappingWidth="44.13671875" />
+                  <Text fx:id="maladieP1" layoutX="259.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Maladie P1" wrappingWidth="58.6171875" />
+                  <Text fx:id="maladieP2" layoutX="259.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Maladie P2" wrappingWidth="58.6171875" />
+                  <Text fx:id="maladieP3" layoutX="259.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Maladie P3" wrappingWidth="58.6171875" />
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

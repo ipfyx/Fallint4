@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import java.net.*?>
+
+<AnchorPane fx:id="mainMenu" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphic_interface_controller.Main_menu_controller">
+  
+  <stylesheets>
+    <URL value="@Main_menu.css" />
+</stylesheets>
+  
+   <children>
+      <ToggleButton fx:id="SoundButton" layoutX="642.0" layoutY="516.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="108.0" text="SON ON">
+         <font>
+            <Font name="28 Days Later" size="18.0" />
+         </font></ToggleButton>
+      <Button fx:id="NewGame" alignment="CENTER" layoutX="273.0" layoutY="255.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="255.0" text="Nouvelle partie">
+         <font>
+            <Font name="28 Days Later" size="24.0" />
+         </font></Button>
+      <Button fx:id="Load" alignment="CENTER" layoutX="273.0" layoutY="334.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="255.0" text="Charger">
+         <font>
+            <Font name="28 Days Later" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="Quit" alignment="CENTER" layoutX="273.0" layoutY="416.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="255.0" text="Quitter">
+         <font>
+            <Font name="28 Days Later" size="24.0" />
+         </font>
+      </Button>
+      <Text fx:id="Title" layoutX="105.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FALLINT" textAlignment="CENTER" wrappingWidth="591.13671875">
+         <font>
+            <Font name="28 Days Later" size="72.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

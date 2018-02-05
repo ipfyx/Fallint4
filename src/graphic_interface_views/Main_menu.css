@@ -1,0 +1,35 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+/* TODO entrer les regles de police dans le CSS ? */
+
+
+
+#SoundButton {
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+	-fx-padding: 4;
+	-fx-background-radius: 8px;
+}
+
+#mainMenu {
+	-fx-background-image: url("/resources/images/nagasakibomb.jpg");
+	-fx-background-repeat: no-repeat;
+}
+
+#NewGame {
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+	-fx-padding: 4;
+	-fx-background-radius: 8px;
+}
+
+#Load {
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+	-fx-padding: 4;
+	-fx-background-radius: 8px;
+}
+
+#Quit {
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+	-fx-padding: 4;
+	-fx-background-radius: 8px;
+	
+}

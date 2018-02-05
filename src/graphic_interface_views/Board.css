@@ -1,0 +1,876 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+/* TODO entrer les regles de police dans le CSS ? */
+
+
+
+#menuBas {
+	-fx-background-color: red;
+	-fx-background-image: url("/resources/images/MenuBas.jpg");
+	-fx-background-repeat: no-repeat;
+}
+
+#persosInfoPane {
+	-fx-background-color: white;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+	-fx-padding: 4;
+	-fx-background-radius: 6px;
+}
+
+#menuDroite {
+	-fx-background-color: orange;
+	-fx-background-image: url("/resources/images/plateMenuDroite.jpg");
+	-fx-background-repeat: no-repeat;
+}
+
+#topMenuPane {
+	-fx-background-color: grey;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+	-fx-padding: 4;
+	-fx-background-radius: 6px;
+}
+
+
+#menuBarre{
+	-fx-font-size: 18
+	
+}
+
+#ongletPerso {
+	-fx-background-color: white;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+	-fx-padding: 4;
+	-fx-background-radius: 6px;
+}
+
+#groupNameTextPane {
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+
+#caseInfoPane {
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+
+#groupNameText {
+	-fx-font-weight: bold;
+}
+
+#caseInfo {
+	-fx-font-weight: bold;
+}
+
+#inventoryScrollPane {
+	-fx-background-color: white;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+	-fx-padding: 4;
+	-fx-background-radius: 6px;
+}
+
+#scrollCommandPane {
+	-fx-background-color: grey;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+	-fx-padding: 4;
+	-fx-background-radius: 6px;
+}
+
+#commandPane {
+	-fx-background-color: rgb(128,198,236);
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+	-fx-padding: 4;
+	-fx-background-radius: 6px;
+}
+
+#potionInventButton {
+	-fx-background-image: url("/resources/images/potion.png");
+	-fx-background-repeat: no-repeat;
+	-fx-font-size: 24;
+	-fx-text-fill: white;
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    -fx-font-weight: bold;
+}
+
+#shieldInventButton {
+	-fx-background-image: url("/resources/images/shield.png");
+	-fx-background-repeat: no-repeat;
+	-fx-font-size: 24;
+	-fx-text-fill: white;
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    -fx-font-weight: bold;
+}
+
+#swordInventButton {
+	-fx-background-image: url("/resources/images/sword.png");
+	-fx-background-repeat: no-repeat;
+	-fx-font-size: 24;
+	-fx-text-fill: white;
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    -fx-font-weight: bold;
+}
+
+#foodInventButton {
+	-fx-background-image: url("/resources/images/food.png");
+	-fx-background-repeat: no-repeat;
+	-fx-font-size: 24;
+	-fx-text-fill: white;
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    -fx-font-weight: bold;
+}
+
+#waterInventButton {
+	-fx-background-image: url("/resources/images/water.png");
+	-fx-background-repeat: no-repeat;
+	-fx-font-size: 24;
+	-fx-text-fill: white;
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    -fx-font-weight: bold;
+}
+
+#woodInventButton {
+	-fx-background-image: url("/resources/images/log.png");
+	-fx-background-repeat: no-repeat;
+	-fx-font-size: 24;
+	-fx-text-fill: white;
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    -fx-font-weight: bold;
+}
+
+#collectWeaponButton {
+	-fx-background-image: url("/resources/images/sword.png");
+	-fx-background-repeat: no-repeat;
+	-fx-font-size: 24;
+	-fx-text-fill: white;
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    -fx-font-weight: bold;
+    -fx-text-alignment: right;
+}
+
+#collectShieldButton {
+	-fx-background-image: url("/resources/images/shield.png");
+	-fx-background-repeat: no-repeat;
+	-fx-font-size: 24;
+	-fx-text-fill: white;
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    -fx-font-weight: bold;
+    -fx-text-alignment: right;
+}
+
+#collectPotionButton {
+	-fx-background-image: url("/resources/images/potion.png");
+	-fx-background-repeat: no-repeat;
+	-fx-font-size: 24;
+	-fx-text-fill: white;
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    -fx-font-weight: bold;
+    -fx-text-alignment: right;
+}
+
+#availableRessourceButton {
+	-fx-background-image: url("/resources/images/resource.png");
+	-fx-background-repeat: no-repeat;
+	-fx-font-size: 14;
+	-fx-text-fill: white;
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    -fx-font-weight: bold;
+}
+
+#endturnButton {
+	-fx-font-size: 24;
+	-fx-text-fill: white;
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    -fx-font-weight: bold;
+}
+
+#moveButton {
+	-fx-font-size: 24;
+	-fx-text-fill: white;
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    -fx-font-weight: bold;
+}
+
+#destroyButton {
+	-fx-font-size: 14;
+	-fx-text-fill: white;
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    -fx-font-weight: bold;
+}
+
+#centerHexagonePaneSp {
+	-fx-background-image: url("/resources/images/link.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#quitButton {
+	-fx-font-size: 14;
+	-fx-text-fill: white;
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    -fx-font-weight: bold;
+}
+
+#buildButton {
+	-fx-font-size: 14;
+	-fx-text-fill: white;
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    -fx-font-weight: bold;
+}
+
+#collectObjectButton {
+	-fx-font-size: 14;
+	-fx-text-fill: white;
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    -fx-font-weight: bold;
+}
+
+#dumpObjectButton {
+	-fx-font-size: 14;
+	-fx-text-fill: white;
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    -fx-font-weight: bold;
+}
+
+#collectRessourceButton {
+	-fx-font-size: 14;
+	-fx-text-fill: white;
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    -fx-font-weight: bold;
+}
+
+#dumpRessourceButton {
+	-fx-font-size: 14;
+	-fx-text-fill: white;
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+    -fx-font-weight: bold;
+}
+
+#turnCountField1 {
+    -fx-font-weight: bold;
+}
+
+#turnCountField2 {
+    -fx-font-weight: bold;
+}
+
+#ptActionField {
+    -fx-font-weight: bold;
+}
+
+#playerPositionField {
+    -fx-font-weight: bold;
+}
+
+#centerHexagone {
+	-fx-opacity: 0.0;
+}
+
+#Hexagonem5_2 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagonem4_2 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagonem4_1 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagonem4_0 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagonem3_2 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagonem3_1 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagonem3_0 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagonem3_m1 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagonem3_m2 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagonem2_2 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagonem2_1 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagonem2_0 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagonem2_m1 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagonem2_m2 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagonem2_m3 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagonem1_2 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagonem1_1 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagonem1_0 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagonem1_m1 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagonem1_m2 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagonem1_m3 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone0_2 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone0_1 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone0_m1 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone0_m2 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone0_m3 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone1_2 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone1_1 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone1_0 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone1_m1 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone1_m2 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone1_m3 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone2_2 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone2_1 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone2_0 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone2_m1 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone2_m2 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone2_m3 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone3_2 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone3_1 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone3_0 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone3_m1 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone3_m2 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone3_m3 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone4_0 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone4_m1 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone4_m2 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone4_m3 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone5_m2 {
+	-fx-opacity: 0.0;
+}
+
+#Hexagone5_m3 {
+	-fx-opacity: 0.0;
+}
+
+#centerHexagonePane {
+	-fx-background-image: url("/resources/images/caseCity.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePanem5_2 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePanem4_2 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePanem4_1 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePanem4_0 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePanem3_2 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePanem3_1 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePanem3_0 {
+	-fx-background-image: url("/resources/images/baseCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePanem3_m1 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePanem3_m2 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePanem2_2 {
+	-fx-background-image: url("/resources/images/waterCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePanem2_1 {
+	-fx-background-image: url("/resources/images/grassCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePanem2_0 {
+	-fx-background-image: url("/resources/images/grassCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePanem2_m1 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePanem2_m2 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePanem2_m3 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePanem1_2 {
+	-fx-background-image: url("/resources/images/waterCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePanem1_1 {
+	-fx-background-image: url("/resources/images/grassCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePanem1_0 {
+	-fx-background-image: url("/resources/images/caseCity.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePanem1_m1 {
+	-fx-background-image: url("/resources/images/grassCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePanem1_m2 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePanem1_m3 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane0_2 {
+	-fx-background-image: url("/resources/images/waterCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane0_1 {
+	-fx-background-image: url("/resources/images/grassCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+
+#HexagonePane0_m1 {
+	-fx-background-image: url("/resources/images/grassCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane0_m2 {
+	-fx-background-image: url("/resources/images/nothingCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane0_m3 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane1_2 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane1_1 {
+	-fx-background-image: url("/resources/images/grassCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane1_0 {
+	-fx-background-image: url("/resources/images/caseCity.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane1_m1 {
+	-fx-background-image: url("/resources/images/grassCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane1_m2 {
+	-fx-background-image: url("/resources/images/nothingCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane1_m3 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane2_2 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane2_1 {
+	-fx-background-image: url("/resources/images/mountainCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane2_0 {
+	-fx-background-image: url("/resources/images/grassCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane2_m1 {
+	-fx-background-image: url("/resources/images/grassCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane2_m2 {
+	-fx-background-image: url("/resources/images/nonExistentCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane2_m3 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane3_2 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane3_1 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane3_0 {
+	-fx-background-image: url("/resources/images/mountainCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane3_m1 {
+	-fx-background-image: url("/resources/images/mountainCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane3_m2 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane3_m3 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane4_0 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane4_m1 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane4_m2 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane4_m3 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+
+#HexagonePane5_m2 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#HexagonePane5_m3 {
+	-fx-background-image: url("/resources/images/treeCase.png");
+	-fx-background-repeat: no-repeat;
+}
+
+#buttonPanel1{
+	-fx-background-color: transparent;
+	-fx-background-radius: 6px;
+}
+
+
+
+
+
